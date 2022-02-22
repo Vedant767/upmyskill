@@ -535,7 +535,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 ----------------------*/
 
 #features-section {
-    padding: 120px 0!important;
+    /* padding: 120px 0!important; */
     padding-bottom: 100px!important;
   }
   
@@ -611,7 +611,120 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     text-align: center;
   }
 
-
+  .about-hero {
+    background: url('../images/hero-bg/about.jpg');
+    background-size: cover;
+  }
+  
+  .about-hero:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  #about-us-section {
+    padding: 100px 0;
+  }
+  
+  .about-studio h4, .what-do h4, .process-work h4 {
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .btn-link-a {
+    cursor: pointer;
+    color: rgba(17, 17, 17, 0.9);
+    text-transform: uppercase;
+    display: block;
+    font-weight: 500;
+    margin-top: 25px;
+  }
+  
+  .btn-link-a:hover {
+    color: #000;
+  }
+  
+  #about-section {
+    padding: 110px 0 120px 0!important;
+  }
+  
+  .big-title-sec {
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  
+  
+  .big-title-sec hr {
+    border: 1.5px solid #000;
+    margin: 30px auto;
+    width: 80px!important;
+    margin-bottom: 50px;
+  }
+  
+  .big-title-sec .big-title {
+    font-weight: 300;
+    text-transform: none;
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .big-title-sec .big-subtitle {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.3px;
+    margin-top: 0;
+    margin-bottom: 28px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.45;
+    text-transform: none;
+    color: #000;
+  }
+  
+  .big-title-sec p {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1.7px;
+    font-weight: 300;
+  }
+  
+  .big-title-sec .view-more {
+    padding-top: 50px;
+  }
+  
+  .big-title-sec .view-more a.btn-primary {
+    margin-right: 2px;
+  }
+  
+  .big-title-sec .view-more a.btn-primary:hover {
+    opacity: .8;
+    background: #fc6e51;
+    border: 1px solid #fc6e51;
+  }
+  
+  .about-box {
+    text-align: center;
+  }
+  
+  .alt-about-icon {
+    padding-top: 10px;
+    font-size: 44px;
+    line-height: 0.9;
+    color: #fc6e51;
+  }
+  
+  .about-box h4 {
+    font-weight: 600;
+    letter-spacing: 1.7px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+  }
   
 /***********************************************************************************************/
 /* =Contact section*/
