@@ -44,9 +44,14 @@ h1, h2, h3, h4, h5, h6 {
   background: #EEEEEE;
 }
 
-.table-data, .header__item {
+.table-data, .header__item{
   flex: 1 1 20%;
-  text-align: center;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.header__item {
+  margin-left: 20px;
 }
 
 .header__item {
