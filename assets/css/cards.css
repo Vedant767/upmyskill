@@ -75,7 +75,7 @@
   left: 0;
   width: 50%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.03);
+  /* background: rgba(255, 255, 255, 0.03); */
 }
 
 .prices_tables .container_prices .card .box .content {

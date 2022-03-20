@@ -865,3 +865,35 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   .back-to-top:hover {
     opacity: .9;
   }
+
+  .circle{
+    counter-reset: list-counter;
+    list-style: none;
+    float:left;
+}
+.circle li{
+    margin: 1.5em 0;    
+}
+.circle li:before{
+    content: counter(list-counter);
+    counter-increment: list-counter;
+    width: 1em;
+    height: 1em;
+    padding: .5em;
+    margin-right: 1em;
+    border-radius: 50%;
+    border: .25em solid #ccc;
+    background: #000;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    
+}
+.vl {
+  border-left: 4px solid #fc6e51;
+  height: 45px;
+  margin: auto;
+  width: 0;
+}
