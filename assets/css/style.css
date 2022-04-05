@@ -540,16 +540,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   
   #features-section .title-section {
-    padding-bottom: 80px;
+    padding-bottom: 20px;
   }
-  
-  .features-image {
-    text-align: center;
-  }
-  
-  .choose-image {
-    text-align: center;
-  }
+
   
   ul.features-list {
     list-style: none;
@@ -558,7 +551,30 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   
   ul.features-list li {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+  }
+  ul.features-list p {
+    width: 450px;
+    padding-left: 85px;
+  }
+
+  .feature-left-logo{
+    float: left;
+    width: 155px;
+    padding-right: 20px;
+  }
+  .why-section-logo{
+    float: left;
+    width: 155px;
+    padding-right: 20px;
+  }
+
+  .feature-center-logo{
+    width: 155px;
+    position: absolute;
+    bottom: 85px;
+    right: 510px;
+    /* top: -100px; */
   }
   
   .iconbox {
@@ -637,6 +653,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 500;
     margin-bottom: 15px;
   }
+
+  .about-us-custom{
+    margin-right: -220px;
+    /* position: absolute;
+    right: 50px; */
+  }
   
   .btn-link-a {
     cursor: pointer;
@@ -680,6 +702,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     letter-spacing: 1.3px;
     margin-top: 0;
     margin-bottom: 28px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.45;
+    text-transform: none;
+    color: #000;
+  }
+
+  .big-title-header{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1.3px;
+    margin-top: -40px;
+    margin-bottom: 50px;
     font-size: 32px;
     font-weight: 300;
     line-height: 1.45;
