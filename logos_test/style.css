@@ -1,0 +1,48 @@
+.logos-section > .container {
+    display: flex;
+    width: 93%;
+    /* padding: 2% 2%; */
+    box-sizing: border-box;
+    /* height: 100vh; */
+  }
+  
+  .box-logos {
+    flex: 1;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(1, 1, 1, 0.1);
+    line-height: 0;
+    padding-top: 5%;
+  }
+
+  .box-logos > .img-in-logos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .box-logos > span {
+    font-weight: bolder;
+    font-size: 2.3vh;
+    display: block;
+    text-align: center;
+    height: 7vh;
+    /* line-height: 2.8; */
+    line-height: 3.3;
+    color: #fc6e51;
+    /* margin-top: 15px; */
+    /* background-color: #fc6e51; */
+  }
+
+  .box-logos > span:hover{
+    color: black;
+    background-color: #fc6e51;;
+  }
+
+  .logos-section{
+      /* margin-left: 250px; */
+      width: 100%;
+      /* padding: 50px; */
+  }

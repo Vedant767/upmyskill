@@ -1,10 +1,14 @@
 /* Slider */
+.container-row-logo{
+    padding-bottom: 50px;
+}
+
 .slick-slide {
     margin: 0px 20px;
 }
 
 .slick-slide img {
-    width: 100%;
+    width: 75%;
 }
 
 .slick-slider
