@@ -37,8 +37,8 @@
   }
 
   .box-logos > span:hover{
-    color: black;
-    background-color: #fc6e51;;
+    /* color: black; */
+    background-color: black;
   }
 
   .logos-section{

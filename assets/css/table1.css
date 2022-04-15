@@ -3,8 +3,7 @@
   box-sizing: border-box;
 }
 
-body {
-  padding: 24px;
+.container-table {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
 }
@@ -13,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-.container {
+.container-table {
   max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
@@ -21,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin-top: -100px;
 }
 
 .table {

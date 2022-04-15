@@ -591,6 +591,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   
   .features-box-content {
     margin-left: 70px;
+    color: #fc6e51;
   }
   
   .features-box-content h6 {
