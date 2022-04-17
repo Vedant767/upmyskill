@@ -563,6 +563,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 155px;
     padding-right: 20px;
   }
+  .left-features-services{
+    width: 560px;
+  }
   .why-section-logo{
     float: left;
     width: 120px;
@@ -656,7 +659,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
 
   .about-us-custom{
-    margin-right: -220px;
+    width: 330px;
     /* position: absolute;
     right: 50px; */
   }
