@@ -659,7 +659,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
 
   .about-us-custom{
-    width: 330px;
+    width: 600px; 
     /* position: absolute;
     right: 50px; */
   }
