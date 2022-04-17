@@ -1,4 +1,4 @@
-.logos-section > .container {
+.services-logos-section > .container {
     display: flex;
     width: 93%;
     /* padding: 2% 2%; */
@@ -6,43 +6,32 @@
     /* height: 100vh; */
   }
   
-  .box-logos {
+  .services-box-logos {
     flex: 1;
     overflow: hidden;
     transition: 0.5s;
     margin: 0 2%;
-    box-shadow: 0 20px 30px rgba(1, 1, 1, 0.1);
+    /* box-shadow: 0 20px 30px rgba(1, 1, 1, 0.1); */
     line-height: 0;
     padding-top: 5%;
   }
 
-  .box-logos > .img-in-logos{
+  .services-box-logos > .img-in-logos{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
+    width: 25%;
   }
   
-  .box-logos > span {
+  .services-box-logos > span {
     font-weight: bolder;
-    font-size: 2.3vh;
+    font-size: large;
     display: block;
     text-align: center;
-    height: 7vh;
+    height: 12vh;
     /* line-height: 2.8; */
-    line-height: 3.3;
+    line-height: 1.8;
     color: #fc6e51;
     /* margin-top: 15px; */
     /* background-color: #fc6e51; */
-  }
-
-  .box-logos > span:hover{
-    /* color: black; */
-    background-color: black;
-  }
-
-  .logos-section{
-      /* margin-left: 250px; */
-      width: 100%;
-      /* padding: 50px; */
   }
