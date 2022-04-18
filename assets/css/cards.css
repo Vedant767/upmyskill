@@ -142,3 +142,9 @@
     border: 1px solid #ddd;
     padding: 8px;
   }
+
+  .content > ul > li{
+    color: rgb(252, 110, 81);
+  }
+
+  

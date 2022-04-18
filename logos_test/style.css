@@ -25,15 +25,12 @@
   
   .box-logos > span {
     font-weight: bolder;
-    font-size: 2.3vh;
+    font-size: 2vh;
     display: block;
     text-align: center;
     height: 7vh;
-    /* line-height: 2.8; */
     line-height: 3.3;
     color: #fc6e51;
-    /* margin-top: 15px; */
-    /* background-color: #fc6e51; */
   }
 
   .box-logos > span:hover{

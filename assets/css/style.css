@@ -119,9 +119,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   
   .title-section  p {
-    font-size: 15px;
+    font-size: 23px;
     line-height: 26px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 1.5px;
   }
   
@@ -630,10 +630,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     text-align: left!important;
   }
   
-  .img-creative-left figure, .img-creative-right figure {
+  /* .img-creative-left figure, .img-creative-right figure {
     padding: 0 25px;
     text-align: center;
-  }
+  } */
 
   .about-hero {
     background: url('../images/hero-bg/about.jpg');
@@ -670,10 +670,28 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   .about-us-list{
     margin-bottom: 45px;
+    font-weight: bolder;
   }
   .about-text{
     font-size: large;
+    color: #fc6e51;
   }
+
+  .img-section1{
+    max-width: max-content ;
+    width: 44vw; 
+    height: 420px;
+    margin-left: -200px;
+    margin-top: 40px;
+  }
+  .img-section2{
+    max-width: max-content ;
+    width: 40vw; 
+    height: 380px;
+    margin-left: -185px;
+  }
+
+
   .btn-link-a {
     cursor: pointer;
     color: rgba(17, 17, 17, 0.9);
@@ -728,7 +746,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     letter-spacing: 1.3px;
     margin-top: -40px;
     margin-bottom: 20px;
-    font-size: 32px;
+    font-size: 35px;
     font-weight: 300;
     line-height: 1.45;
     text-transform: none;
