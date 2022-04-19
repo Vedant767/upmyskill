@@ -81,3 +81,66 @@ h1, h2, h3, h4, h5, h6 {
 .filter__link.asc::after {
   content: "(asc)";
 }
+
+.big-title-header{
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 130px;
+  /* margin-bottom: -120px; */
+}
+
+#iso_page{
+margin-bottom: -400px;
+}
+
+#computer_table{
+  margin-bottom: -320px;
+}
+
+#IAFT_table{
+padding-bottom: 150px;
+}
+
+#QMS_table{
+  padding-bottom: 90px;
+  margin-bottom: 0px;
+}
+
+#EMS_table{
+  margin-bottom: -150px;
+}
+
+#technical_table{
+  padding-bottom: 0;
+}
+
+#soft_table{
+  margin-bottom: -120px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .big-title-header{
+    padding-bottom: 100px;
+  }
+  #iso_page{
+    margin-bottom: -250px;
+    }
+  
+    #EMS_table{
+      margin-bottom: 30px;
+    }
+    #soft_table{
+      margin-bottom: 40px;
+    }
+
+    #technical_table{
+      margin-bottom: 140px;
+    }
+
+    #computer_table{
+      margin-bottom: -200px;
+    }
+    #IAFT_table{
+      margin-bottom: 0px;
+      }
+}

@@ -32,3 +32,12 @@
     line-height: 1.8;
     color: #fc6e51;
   }
+
+  @media only screen and (max-width: 1400px) {
+  /* .services-box-logos{
+    overflow: visible;
+  } */
+  .services-box-logos > span {
+    font-size: 15px;
+  }
+  }

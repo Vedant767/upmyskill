@@ -677,6 +677,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #fc6e51;
   }
 
+  @media only screen and (max-width: 1400px) {
+    .img-section1 .img-section2{
+      margin-left: 0px;
+    }
+    .img-section2{
+      margin-top: -100px;
+    }
+
+    .about-us-section{
+      margin-left: 120px;
+    }
+  }
+
   .img-section1{
     max-width: max-content ;
     width: 44vw; 
