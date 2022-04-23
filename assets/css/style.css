@@ -119,14 +119,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   
   .title-section  p {
-    font-size: 23px;
+    /* font-size: 23px; */
+    font-size: medium;
     line-height: 26px;
     font-weight: 500;
     letter-spacing: 1.5px;
   }
   
   .pad-sec {
-    padding: 100px 0!important;
+    padding: 60px 0!important;
   }
   
   .title-section {
@@ -538,12 +539,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   Features Section
 ----------------------*/
 
-#features-section {
+#features-section #why-us {
     /* padding: 120px 0!important; */
     padding-bottom: 100px!important;
   }
   
-  #features-section .title-section {
+  #features-section .title-section #why-us {
     padding-bottom: 20px;
   }
 
@@ -669,7 +670,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     right: 50px; */
   }
   .about-us-list{
-    margin-bottom: 45px;
+    margin-bottom: 42px;
     font-weight: bolder;
   }
   .about-text{
@@ -688,18 +689,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     .about-us-section{
       margin-left: 120px;
     }
+    .about-us-list{
+      /* margin-bottom: 32px; */
+      font-size: 16px;
+    }
   }
 
   .img-section1{
     max-width: max-content ;
-    width: 44vw; 
+    width: 45vw; 
     height: 420px;
     margin-left: -200px;
     margin-top: 40px;
   }
   .img-section2{
     max-width: max-content ;
-    width: 40vw; 
+    width: 45vw; 
     height: 380px;
     margin-left: -185px;
   }
