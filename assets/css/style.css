@@ -675,7 +675,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   .about-text{
     font-size: large;
-    color: #fc6e51;
+    color: black;
   }
 
   @media only screen and (max-width: 1400px) {
@@ -706,7 +706,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     max-width: max-content ;
     width: 45vw; 
     height: 380px;
-    margin-left: -185px;
+    margin-left: -190px;
+    margin-bottom: 60px;
   }
 
 
