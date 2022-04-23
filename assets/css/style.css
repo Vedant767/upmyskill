@@ -689,7 +689,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     .about-us-section{
       margin-left: 120px;
     }
-    .about-us-list{
+    .about-text{
       /* margin-bottom: 32px; */
       font-size: 16px;
     }
@@ -704,9 +704,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   .img-section2{
     max-width: max-content ;
-    width: 45vw; 
+    width: 40vw; 
     height: 380px;
-    margin-left: -190px;
+    margin-left: -206px;
     margin-bottom: 60px;
   }
 
