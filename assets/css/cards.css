@@ -55,7 +55,8 @@
   right: 20px;
   bottom: 20px;
   /* padding-bottom: 210px; */
-  background: #2a2b2f;
+  /* background: #2a2b2f; */
+  background: rgb(252, 110, 81);
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -144,7 +145,8 @@
   }
 
   .content > ul > li{
-    color: rgb(252, 110, 81);
+    /* color: rgb(252, 110, 81); */
+    color: white
   }
 
   
