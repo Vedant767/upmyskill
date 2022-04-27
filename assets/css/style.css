@@ -14,7 +14,7 @@ body {
   }
   
   a {
-    color: #fc6e51;
+    color: #FF5F00;
     -webkit-transition: all .25s ease-in-out;
        -moz-transition: all .25s ease-in-out;
         -ms-transition: all .25s ease-in-out;
@@ -195,8 +195,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   
   .btn-primary {
     text-transform: uppercase;
-    background-color: #fc6e51;
-    border-color: #fc6e51;
+    background-color: #FF5F00;
+    border-color: #FF5F00;
   }
   
   .btn-black {
@@ -207,8 +207,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   
   .btn-black:hover {
-    background-color: #fc6e51;
-    border-color: #fc6e51;
+    background-color: #FF5F00;
+    border-color: #FF5F00;
     color: #fff;
   }
   
@@ -331,11 +331,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > 
   .active > a:focus {
     background: transparent;
-    color: #fc6e51;
+    color: #FF5F00;
   }
   
   .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #fc6e51;
+    color: #FF5F00;
   }
   
   .dropdown-menu {
@@ -357,12 +357,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   
   .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
     background-color: #fff;
-    color: #fc6e51;
+    color: #FF5F00;
   }
   
   .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     background-color: #fff;
-    color: #fc6e51;
+    color: #FF5F00;
   }
   
   .navbar-default .dropdown:hover>.dropdown-menu {
@@ -594,12 +594,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   
   .iconbox i {
     font-size: 32px;
-    color: #fc6e51
+    color: #FF5F00
   }
   
   .features-box-content {
     margin-left: 70px;
-    color: #fc6e51;
+    color: #FF5F00;
   }
   
   .features-box-content h6 {
@@ -665,12 +665,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
   .about-us-custom{
     width: 600px; 
-    margin-top: 100px;
+    margin-top: 28px;
     /* position: absolute;
     right: 50px; */
   }
   .about-us-list{
-    margin-bottom: 42px;
+    /* margin-bottom: 42px; */
+    margin-bottom: 15px;
     font-weight: bolder;
   }
   .about-text{
@@ -683,7 +684,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       margin-left: 0px;
     }
     .img-section2{
-      margin-top: -100px;
+      margin-top: -55px;
     }
 
     .about-us-section{
@@ -691,11 +692,25 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     }
     .about-text{
       /* margin-bottom: 32px; */
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 
   .img-section1{
+    max-width: max-content ;
+    width: 35vw; 
+    height: 300px;
+    margin-left: -135px;
+    margin-top: -10px;
+  }
+  .img-section2{
+    max-width: max-content ;
+    width: 35vw; 
+    height: 300px;
+    margin-left: -130px;
+    /* margin-top: -55px; */
+  }
+  /* .img-section1{
     max-width: max-content ;
     width: 45vw; 
     height: 420px;
@@ -708,7 +723,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: 380px;
     margin-left: -206px;
     margin-bottom: 60px;
-  }
+  } */
 
 
   .btn-link-a {
@@ -763,8 +778,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   .big-title-header{
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1.3px;
-    margin-top: -40px;
-    margin-bottom: 20px;
+    margin-top: -55px;
+    /* margin-bottom: 20px; */
+    margin-bottom: -20px;
     font-size: 35px;
     font-weight: 300;
     line-height: 1.45;
@@ -789,8 +805,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   
   .big-title-sec .view-more a.btn-primary:hover {
     opacity: .8;
-    background: #fc6e51;
-    border: 1px solid #fc6e51;
+    background: #FF5F00;
+    border: 1px solid #FF5F00;
   }
   
   .about-box {
@@ -801,7 +817,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding-top: 10px;
     font-size: 44px;
     line-height: 0.9;
-    color: #fc6e51;
+    color: #FF5F00;
   }
   
   .about-box h4 {
@@ -977,7 +993,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     
 }
 .vl {
-  border-left: 4px solid #fc6e51;
+  border-left: 4px solid #FF5F00;
   height: 45px;
   margin: auto;
   width: 0;
