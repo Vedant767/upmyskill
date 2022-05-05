@@ -505,6 +505,33 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     letter-spacing: 8px;
     text-transform: uppercase;
   }
+
+  .nav-logo{
+    width: 100px;
+    position: absolute;
+    left: 38px;
+  }
+
+
+
+  @media only screen and (max-width: 700px) {
+    .hero-content h1{
+      font-size: x-large;
+    }
+    .hero-text{
+      margin-left: -45px;
+    }
+    p.hero {
+      font-size: 15px;
+    }
+    .nav-logo{
+      width: 85px;
+      left: 20px;
+    }
+    .big-title-header{
+      font-size: x-large;
+    }
+  } 
   
   .div-line {
     width: 50px;
@@ -685,6 +712,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     }
     .img-section2{
       margin-top: -55px;
+      width: 40vw;
     }
 
     .about-us-section{
@@ -698,14 +726,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
   .img-section1{
     max-width: max-content ;
-    width: 35vw; 
-    height: 300px;
-    margin-left: -135px;
+    width: 33vw; 
+    height: 325px;
+    margin-left: -190px;
     margin-top: -10px;
   }
   .img-section2{
     max-width: max-content ;
-    width: 35vw; 
+    width: 30vw; 
     height: 300px;
     margin-left: -130px;
     /* margin-top: -55px; */
