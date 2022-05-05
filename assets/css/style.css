@@ -527,9 +527,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     .nav-logo{
       width: 85px;
       left: 20px;
+      top: 10px;
     }
     .big-title-header{
       font-size: x-large;
+    }
+    .navbar-default{
+      top:15px
     }
   } 
   
