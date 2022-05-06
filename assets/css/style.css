@@ -535,8 +535,40 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     .navbar-default{
       top:15px
     }
-  } 
-  
+    .about-us-section{
+      display: contents;
+    }
+
+    /* .about-us-custom{
+      width: 0;
+      margin-top: 0;
+    } */
+
+    .img-section1-mobile{
+    width: 95vw;
+    height: 200px;
+    }
+    .img-section2-mobile{
+    width: 90vw;
+    height: 200px;
+    }
+    .ul-about-mobile{
+      width: 355px;
+    }
+    .about-laptop{
+      display: none;
+    }
+    .about-phone{
+      display: block;
+    }
+  }
+
+  .about-laptop{
+    display: block;
+  }
+  .about-phone{
+    display: none;
+  }
   .div-line {
     width: 50px;
     background-color: #fff;
