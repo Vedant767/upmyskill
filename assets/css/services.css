@@ -1,7 +1,7 @@
 .services-logos-section > .container {
     display: flex;
     width: 93%;
-    /* padding: 2% 2%; */
+    padding-bottom: 64px;
     box-sizing: border-box;
     /* height: 100vh; */
   }
