@@ -746,8 +746,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-top: 60px;
   }
   .about-ul-2{
-    margin-top: 215px;
-    margin-bottom: 50px;
+    margin-top: 190px;
+    margin-bottom: 80px;
   }
 
   .about-ul-1 > ul{
@@ -758,15 +758,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
 
   @media only screen and (max-width: 1400px) {
-    .img-section1 .img-section2{
+    /* .about-img-section >.img-section1 .about-img-section >.img-section2{
       width: 40vw;
       margin-left: -100px;
+    } */
+    .about-img-section > .img-section1{
+      margin-top: -50px;
+      width: 37vw;
+      margin-left: -156px;
+      margin-bottom: 10px;
     }
-    .img-section1{
-      margin-top: -65px;
-    }
-    .img-section2{
-      margin-top: -95px;
+    .about-img-section >.img-section2{
+      margin-top: -85px;
+      width: 37vw;
     }
 
     .about-us-section{
@@ -781,7 +785,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       margin-left: -90px;
     }
     .about-ul-2{
-      margin-top: 80px;
+      margin-top: 100px;
       margin-bottom: 100px;
       margin-left: -120px;
     }
