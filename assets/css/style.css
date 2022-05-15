@@ -384,7 +384,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   
   .landing-hero {
-    background: url('../img/home.jpg');
+    /* background: url('../img/home.jpg'); */
+    background: url('../../imgs/home.jpeg');
     background-size: cover;
   }
 
@@ -783,13 +784,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
     .about-ul-1{
       margin-top: 40px;
-      margin-left: -90px;
+      margin-left: -35px;
+      font-weight: 100;
     }
     .about-ul-2{
       width: 610px;
       margin-top: -10px;
       margin-bottom: 50px;
-      margin-left: -320px;
+      margin-left: -285px;
+      font-weight: 100;
     }
   }
 
@@ -965,8 +968,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   }
   
   .contact-info a i {
-    display: block;
-    font-size: 30px;
+    /* display: block;
+    font-size: 30px; */
     margin-bottom: 15px;
   }
   
