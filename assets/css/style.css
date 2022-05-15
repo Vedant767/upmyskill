@@ -558,14 +558,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     .about-laptop{
       display: none;
     }
-    .about-phone{
+    div .about-phone{
       display: block;
     }
   }
 
-  .about-laptop{
+  /* .about-laptop{
     display: block;
-  }
+  } */
   .about-phone{
     display: none;
   }
@@ -729,8 +729,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   .about-us-custom{
     width: 600px; 
     margin-top: 28px;
-    /* position: absolute;
-    right: 50px; */
+
   }
   .about-us-list{
     /* margin-bottom: 42px; */
@@ -746,8 +745,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-top: 60px;
   }
   .about-ul-2{
-    margin-top: 190px;
+    margin-top: 85px;
     margin-bottom: 80px;
+    margin-left: -400px;
   }
 
   .about-ul-1 > ul{
@@ -763,14 +763,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       margin-left: -100px;
     } */
     .about-img-section > .img-section1{
-      margin-top: -50px;
-      width: 37vw;
-      margin-left: -156px;
+      margin-top: -35px;
+      width: 45vw;
+      margin-left: -185px;
       margin-bottom: 10px;
     }
     .about-img-section >.img-section2{
-      margin-top: -85px;
-      width: 37vw;
+      margin-top: -60px;
+      width: 42vw;
+      margin-left: -200px;
     }
 
     .about-us-section{
@@ -781,28 +782,29 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     }
 
     .about-ul-1{
-      margin-top: -15px;
+      margin-top: 40px;
       margin-left: -90px;
     }
     .about-ul-2{
-      margin-top: 100px;
-      margin-bottom: 100px;
-      margin-left: -120px;
+      width: 610px;
+      margin-top: -10px;
+      margin-bottom: 50px;
+      margin-left: -320px;
     }
   }
 
   .img-section1{
     max-width: max-content ;
-    width: 33vw; 
-    height: 325px;
+    width: 40vw; 
+    height: 375px;
     margin-left: -190px;
     margin-top: 10px;
   }
   .img-section2{
     max-width: max-content ;
-    width: 30vw; 
-    height: 300px;
-    margin-left: -145px;
+    width: 40vw; 
+    height: 340px;
+    margin-left: 140px;
     /* margin-top: -55px; */
   }
   /* .img-section1{
