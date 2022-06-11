@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   
   .landing-hero {
     /* background: url('../img/home.jpg'); */
-    background: url('../../imgs/home.jpeg');
+    background: url('../../imgs/home1.jpeg');
     background-size: cover;
   }
 
@@ -520,7 +520,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       font-size: x-large;
     }
     .hero-text{
-      margin-left: -45px;
+      /* margin-left: -45px; */
+      margin-left: -5px;
     }
     p.hero {
       font-size: 15px;
@@ -554,7 +555,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: 200px;
     }
     .ul-about-mobile{
-      width: 355px;
+      width: 325px;
+      margin-left: 30px;
     }
     .about-laptop{
       display: none;
@@ -730,7 +732,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   .about-us-custom{
     width: 600px; 
     margin-top: 28px;
-
+    font-weight: 100;
   }
   .about-us-list{
     /* margin-bottom: 42px; */
@@ -793,6 +795,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       margin-bottom: 50px;
       margin-left: -285px;
       font-weight: 100;
+    }
+    section > .contact-info{
+      margin-top: -60px;
     }
   }
 

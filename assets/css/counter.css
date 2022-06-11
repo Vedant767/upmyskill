@@ -85,7 +85,7 @@ span.text {
 @media screen and (max-width: 480px) {
   .wrapper-counter {
     gap: 15px;
-    margin-left: 215px;
+    margin-left: 200px;
     margin-top: 185px;
   }
   .container-count {

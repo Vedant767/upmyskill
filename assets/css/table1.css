@@ -44,7 +44,14 @@ h1, h2, h3, h4, h5, h6 {
 .table-row:nth-of-type(odd) {
   background: #EEEEEE;
 }
-
+#topic-record{
+  margin-left: -75px;
+  margin-right: 110px;
+}
+.topic-header{
+  margin-left: -75px;
+  margin-right: 110px;
+}
 .table-data, .header__item{
   flex: 1 1 20%;
   text-align: left;
@@ -91,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #iso_page{
-margin-bottom: -400px;
+margin-bottom: -450px;
 }
 
 #computer_table{
@@ -104,7 +111,7 @@ padding-bottom: 150px;
 
 #QMS_table{
   padding-bottom: 90px;
-  margin-bottom: 0px;
+  margin-bottom: -230px;
 }
 
 #EMS_table{
@@ -116,33 +123,39 @@ padding-bottom: 150px;
 }
 
 #soft_table{
-  margin-bottom: -120px;
+  margin-bottom: -170px;
 }
 
 @media only screen and (max-width: 1400px) {
+  #QMS_table{
+    margin-bottom: 10px;
+  }
+  .container-table {
+    margin-top: -100px;
+  }
   .big-title-header{
     padding-bottom: 100px;
   }
   #iso_page{
-    margin-bottom: -250px;
+    margin-bottom: -270px;
     }
   
     #EMS_table{
-      margin-bottom: 30px;
+      margin-bottom: 10px;
     }
     #soft_table{
-      margin-bottom: 40px;
+      margin-bottom: 10px;
     }
 
     #technical_table{
-      margin-bottom: 140px;
+      margin-bottom: 110px;
     }
 
     #computer_table{
       margin-bottom: -200px;
     }
     #IAFT_table{
-      margin-bottom: 0px;
+      margin-bottom: -150px;
       }
 }
 
@@ -164,5 +177,13 @@ padding-bottom: 150px;
   .table-data{
     text-align: center;
     margin-left: 0;
+  }
+  #topic-record{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .topic-header{
+    margin-left: 0;
+    margin-right: 0;
   }
 }
