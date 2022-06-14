@@ -226,9 +226,10 @@ body {
     #calendar li {
       height: auto !important;
       border: 1px solid #ededed;
-      width: 100%;
+      width: 250px;
       padding: 10px;
       margin-bottom: -1px;
+      margin-left: -100px;
     }
   
     #calendar .date {
