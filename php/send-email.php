@@ -2,7 +2,7 @@
 
 // Replace this with your own email address
 // $to = 'info@quidditchfinance.com';
-$to = 'contact@upmyskill.in';
+$to = 'narayan.kavitake@upmyskill.in';
 
 function url(){
   return sprintf(

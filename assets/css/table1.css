@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -8,7 +10,12 @@
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -25,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .table {
   width: 100%;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
 }
 
 .table-header {
@@ -39,20 +46,22 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   width: 100%;
   padding: 18px 0;
-  font-size: medium;
+  font-size: 1.9rem;
+  color: #ff5f00;
 }
 .table-row:nth-of-type(odd) {
-  background: #EEEEEE;
+  background: #eeeeee;
 }
-#topic-record{
+#topic-record {
   margin-left: -75px;
   margin-right: 110px;
 }
-.topic-header{
+.topic-header {
   margin-left: -75px;
   margin-right: 110px;
 }
-.table-data, .header__item{
+.table-data,
+.header__item {
   flex: 1 1 20%;
   text-align: left;
   margin-left: 50px;
@@ -90,99 +99,99 @@ h1, h2, h3, h4, h5, h6 {
   content: "(asc)";
 }
 
-.big-title-header{
+.big-title-header {
   text-align: center;
   padding-top: 70px;
   padding-bottom: 130px;
   /* margin-bottom: -120px; */
 }
 
-#iso_page{
-margin-bottom: -450px;
+#iso_page {
+  margin-bottom: -450px;
 }
 
-#computer_table{
+#computer_table {
   margin-bottom: -320px;
 }
 
-#IAFT_table{
-padding-bottom: 150px;
+#IAFT_table {
+  padding-bottom: 150px;
 }
 
-#QMS_table{
+#QMS_table {
   padding-bottom: 90px;
   margin-bottom: -230px;
 }
 
-#EMS_table{
+#EMS_table {
   margin-bottom: -150px;
 }
 
-#technical_table{
+#technical_table {
   padding-bottom: 0;
 }
 
-#soft_table{
+#soft_table {
   margin-bottom: -170px;
 }
 
 @media only screen and (max-width: 1400px) {
-  #QMS_table{
+  #QMS_table {
     margin-bottom: 10px;
   }
   .container-table {
     margin-top: -100px;
   }
-  .big-title-header{
+  .big-title-header {
     padding-bottom: 100px;
   }
-  #iso_page{
+  #iso_page {
     margin-bottom: -270px;
-    }
-  
-    #EMS_table{
-      margin-bottom: 10px;
-    }
-    #soft_table{
-      margin-bottom: 10px;
-    }
+  }
 
-    #technical_table{
-      margin-bottom: 110px;
-    }
+  #EMS_table {
+    margin-bottom: 10px;
+  }
+  #soft_table {
+    margin-bottom: 10px;
+  }
 
-    #computer_table{
-      margin-bottom: -200px;
-    }
-    #IAFT_table{
-      margin-bottom: -150px;
-      }
+  #technical_table {
+    margin-bottom: 110px;
+  }
+
+  #computer_table {
+    margin-bottom: -200px;
+  }
+  #IAFT_table {
+    margin-bottom: -150px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
-  .table-header{
+  .table-header {
     padding: 0;
     font-size: xx-small;
   }
 
-  .filter__link{
+  .filter__link {
     padding-left: 0;
     display: flex;
     padding: 5px;
   }
 
-  .table-row{
+  .table-row {
     font-size: small;
   }
-  .table-data{
+  .table-data {
     text-align: center;
     margin-left: 0;
   }
-  #topic-record{
+  #topic-record {
     margin-left: 0;
     margin-right: 0;
   }
-  .topic-header{
+  .topic-header {
     margin-left: 0;
     margin-right: 0;
   }
