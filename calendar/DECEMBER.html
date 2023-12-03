@@ -1,414 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendar</title>
-    <link rel="stylesheet" href="../assets/css/calendar.css">
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-</head>
-<body>
-
+    <link rel="stylesheet" href="../assets/css/calendar.css" />
+  </head>
+  <body>
     <div id="calendar-wrap">
-        <header>
-          <div class="flex-grid-center">
-            <a href="../index.html" style="color: black; text-decoration:none;"><div class="pure-button fuller-button red">HOME</div></a>
-            <a href="./NOVEMBER.html" style="color: black; text-decoration:none;"><div class="pure-button fuller-button red">NOVEMBER 2022</div></a>
-            <div class="pure-button fuller-button red" style="background-color: #fb5454;">DECEMBER 2022</div>
+      <header>
+        <div class="flex-grid-center">
+          <a href="../index.html" style="color: black; text-decoration: none"
+            ><div class="pure-button fuller-button red">HOME</div></a
+          >
+          <div
+            class="pure-button fuller-button red"
+            style="background-color: #fb5454"
+          >
+            DECEMBER 2023
           </div>
-          <!-- <div class="w3-bar w3-black">
-            <button class="w3-button w3-left">Left</button>
-            <h1>December 2017</h1>
-            <button class="w3-button w3-right">Right</button>
-          </div> -->
-        </header>
-        <div class="calendar-size">
-          <div id="calendar">
-            <ul class="weekdays">
-              <li>Sunday</li>
-              <li>Monday</li>
-              <li>Tuesday</li>
-              <li>Wednesday</li>
-              <li>Thursday</li>
-              <li>Friday</li>
-              <li>Saturday</li>
-            </ul>
-        
-            <!-- Days from previous month -->
-        
-            <ul class="days">
-                <li class="day other-month"></li>
-                <li class="day other-month"></li>
-                <li class="day other-month"></li>
-                <li class="day other-month"></li>
-        
-              <!-- Days in current month -->
-        
-              <li class="day">
-                <div class="date">1</div>
-              </li>
-              <li class="day">
-                <div class="date">2</div>
-              </li>
-            </ul>
-        
-            <!-- Row #2 -->
-        
-            <ul class="days">
-              <li class="day">
-                <div class="date">3</div>
-              </li>
-              <li class="day">
-                <div class="date">4</div>
-              </li>
-              <li class="day">
-                <div class="date">5</div>
-                <div class="event">
-                  <div class="event-desc">
-                   <b style="color: black;">ISO9001 Awareness</b>
-                   <br>
-                   ₹1,500
-                    <br><br>
-                    <button> <a href="./registration.html">Connect</a> </button>
-                  </div>
-                  <div class="event-time">
-                    10:00am to 5:00pm
-                  </div>
-                </div>
-              </li>
-              <li class="day">
-                <div class="date">6</div>
-              </li>
-              <li class="day">
-                <div class="date">7</div>
-              </li>
-              <li class="day">
-                <div class="date">8</div>
-              </li>
-              <li class="day">
-                <div class="date">9</div>
-                <div class="event">
-                  <div class="event-desc">
-                    <b style="color: black;">Process Turtle Diagram</b>
-                    <br>
-                     ₹600
-                    <br><br>
-                    <button> <a href="./registration.html">Connect</a> </button>
-                  </div>
-                  <div class="event-time">
-                    10:00am to 12:00pm
-                  </div>
-                </div>
-              </li>
-            </ul>
-        
-            <!-- Row #3 -->
-        
-            <ul class="days">
-              <li class="day">
-                <div class="date">10</div>
-              </li>
-              <li class="day">
-                <div class="date">11</div>
-              </li>
-              <li class="day">
-                <div class="date">12</div>
-                <div class="event">
-                  <div class="event-desc">
-                    <b style="color: black;">APQP (Advanced Product Quality Planning)</b>
-                    <br>
-                    ₹1,500
-                    <br><br>
-                    <button> <a href="./registration.html">Connect</a> </button>
-                  </div>
-                  <div class="event-time">
-                    10:00am to 5:00pm
-                  </div>
-                </div>
-              </li>
-              <li class="day">
-                <div class="date">13</div>
-              </li>
-              <li class="day">
-                <div class="date">14</div>
-              </li>
-              <li class="day">
-                <div class="date">16</div>
-                <div class="event">
-                  <div class="event-desc">
-                  <b style="color: black;">Control Plan</b>
-                  <br>
-                  ₹1,000
-                    <br><br>
-                    <button> <a href="./registration.html">Connect</a> </button>
-                  </div>
-                  <div class="event-time">
-                    2:00pm to 5:00pm
-                  </div>
-                </div>
-              </li>
-              <li class="day">
-                <div class="date">16</div>
-              </li>
-            </ul>
-        
-            <!-- Row #4 -->
-        
-            <ul class="days">
-              <li class="day">
-                <div class="date">17</div>
-                <div class="event">
-                  <div class="event-desc">
-                  <b style="color: black;">SWOT Analysis</b>
-                   <br>
-                  ₹1,500
-                    <br><br>
-                    <button> <a href="./registration.html">Connect</a> </button>
-                  </div>
-                  <div class="event-time">
-                    10:00am to 3:00pm
-                  </div>
-                </div>
-              </li>
-              <li class="day">
-                <div class="date">18</div>
-              </li>
-              <li class="day">
-                <div class="date">19</div>
-                <div class="event">
-                  <div class="event-desc">
-                  <b style="color: black;">Tool Box Talk</b>
-                  <br>
-                    ₹600
-                    <br><br>
-                    <button> <a href="./registration.html">Connect</a> </button>
-                  </div>
-                  <div class="event-time">
-                    10:00am to 12:00pm
-                  </div>
-                </div>
-              </li>
-              <li class="day">
-                <div class="date">20</div>
-              </li>
-              <li class="day">
-                <div class="date">21</div>
-              </li>
-              <li class="day">
-                <div class="date">22</div>
-              </li>
-              <li class="day">
-                <div class="date">23</div>
-              </li>
-            </ul>
-        
-            <!-- Row #5 -->
-        
-            <ul class="days">
-              <li class="day">
-                <div class="event"  style="margin-top: 0;">
-                  <div class="date">24</div>
-                  <div class="event-desc">
-                    <b style="color: black;">PPE</b> - ₹600
-                    <br>
-                    <br>
-                    <button> <a href="./registration.html">Connect</a> </button>
-                  </div>
-                  <div class="event-time">
-                    10:00am to 12:00pm
-                  </div>
-                </div>
-                <div class="event" style="margin-top: 0;">
-                  <div class="event-desc">
-                   <b style="color: black;">HIRA </b> - ₹800
-                   <br>                 
-                    <br>
-                    <button> <a href="./registration.html">Connect</a> </button>
-                  </div>
-                  <div class="event-time">
-                    2:00pm to 5:00pm
-                  </div>
-                </div>
-              </li>
-              <li class="day">
-                 <div class="date">25</div>
-              </li>
-              <li class="day">
-                <div class="date">26</div>
-                <div class="event">
-                  <div class="event-desc">
-                  <b style="color: black;">5S</b>
-                   <br>
-                  ₹1,500
-                    <br><br>
-                    <button> <a href="./registration.html">Connect</a> </button>
-                  </div>
-                  <div class="event-time">
-                    10:00am to 5:00pm
-                  </div>
-                </div>
-              </li>
-              <li class="day">
-                <div class="date">27</div>
-              </li>
-              <li class="day">
-                <div class="date">28</div>
-              </li>
-              <li class="day">
-                <div class="date">29</div>
-              </li>
-              <ul class="days">
-                <li class="day">
-                  <div class="date">30</div>
-                </li>
-              <li class="day">
-                <div class="date">31</div>
-                <div class="event">
-                  <div class="event-desc">
-                  <b style="color: black;">Plastic Molding Process</b>
-                   <br>
-                    ₹800
-                    <br><br>
-                    <button> <a href="./registration.html">Connect</a> </button>
-                  </div>
-                  <div class="event-time">
-                    10:00am to 12:00pm
-                  </div>
-                </div>
-              </li>
-            </ul>
-        
-            <!-- Row #6 -->
-        
-
-              <!-- Next Month -->
-              <!-- <li class="day other-month">
-                <div class="date">1</div> 
-              </li>
-              <li class="day other-month">
-                <div class="date">2</div>
-              </li>
-              <li class="day other-month">
-                <div class="date">3</div>
-              </li>
-              <li class="day other-month">
-                <div class="date">4</div>
-              </li>
-              <li class="day other-month">
-                <div class="date">5</div>
-              </li>
-              <li class="day other-month">
-                <div class="date">6</div>
-              </li> -->
-            </ul>
-        
-          </div><!-- /. calendar -->
-        </div><!-- /. wrap -->
+          <a href="./January.html" style="color: black; text-decoration: none"
+            ><div class="pure-button fuller-button red">JANUARY 2024</div></a
+          >
         </div>
-</body>
+      </header>
+      <div class="calendar-size">
+        <div id="calendar">
+          <ul class="weekdays">
+            <li>Sunday</li>
+            <li>Monday</li>
+            <li>Tuesday</li>
+            <li>Wednesday</li>
+            <li>Thursday</li>
+            <li>Friday</li>
+            <li>Saturday</li>
+          </ul>
+
+          <!-- Days from previous month -->
+
+          <ul class="days">
+            <li class="day other-month"></li>
+            <li class="day other-month"></li>
+            <li class="day other-month"></li>
+            <li class="day other-month"></li>
+            <li class="day other-month"></li>
+
+            <!-- Days in current month -->
+
+            <li class="day">
+              <div class="event" style="margin-top: 0">
+                <div class="date">1</div>
+                <div class="event-desc">
+                  <b style="color: black">Mock Drill</b> - ₹1200
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00am to 12:00pm</div>
+              </div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black">Safety Dash Board</b> - ₹1200
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">2:00pm to 4:00pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="event" style="margin-top: 0">
+                <div class="date">2</div>
+                <div class="event-desc">
+                  <b style="color: black">Product Life Cycle</b> - ₹1000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00am to 12:00pm</div>
+              </div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black">Environmental Testing</b> - ₹1000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">2:00pm to 3:30pm</div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Row #2 -->
+
+          <ul class="days">
+            <li class="day">
+              <div class="date">3</div>
+            </li>
+            <li class="day">
+              <div class="date">4</div>
+            </li>
+            <li class="day">
+              <div class="event" style="margin-top: 0">
+                <div class="date">5</div>
+                <div class="event-desc">
+                  <b style="color: black">Process Change Management</b> - ₹1500
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00am to 12:00pm</div>
+              </div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black">Cost of poor quality</b> - ₹1000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">2:00pm to 3.30pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="event" style="margin-top: 0">
+                <div class="date">6</div>
+                <div class="event-desc">
+                  <b style="color: black">Plating Process</b> - ₹1000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00am to 12:00pm</div>
+              </div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black">Welding Process(Qualification)</b> -
+                  ₹1200
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">2:00pm to 3:30pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="date">7</div>
+              <div class="event">
+                <div class="event-desc">
+                  <b style="color: black">Seven QC Tools</b> - ₹1,500
+                  <br /><br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00pm to 3:30pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="date">8</div>
+            </li>
+            <li class="day">
+              <div class="date">9</div>
+            </li>
+          </ul>
+
+          <!-- Row #3 -->
+
+          <ul class="days">
+            <li class="day">
+              <div class="date">10</div>
+            </li>
+            <li class="day">
+              <div class="event" style="margin-top: 0">
+                <div class="date">11</div>
+                <div class="event-desc">
+                  <b style="color: black">Calibration Error Verification</b> -
+                  ₹1000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00am to 12:00pm</div>
+              </div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black">MS Word Advanced</b> - ₹1200
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">2:00pm to 5:00pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="date">12</div>
+            </li>
+            <li class="day">
+              <div class="date">13</div>
+            </li>
+            <li class="day">
+              <div class="date">14</div>
+              <div class="event">
+                <div class="event-desc">
+                  <b style="color: black">SPC</b> - ₹1,500 <br /><br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00pm to 3:00pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="event" style="margin-top: 0">
+                <div class="date">15</div>
+                <div class="event-desc">
+                  <b style="color: black">HIRA</b> - ₹1200
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00am to 12:00pm</div>
+              </div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black">Aspect-Impact</b> - ₹1200
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">2:00pm to 4:00pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="event" style="margin-top: 0">
+                <div class="date">16</div>
+                <div class="event-desc">
+                  <b style="color: black">Tooling Management</b> - ₹1000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00am to 1:00pm</div>
+              </div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black">OEE</b> - ₹1000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">2:00pm to 5:30pm</div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Row #4 -->
+
+          <ul class="days">
+            <li class="day">
+              <div class="date">17</div>
+            </li>
+            <li class="day">
+              <div class="date">18</div>
+              <div class="event">
+                <div class="event-desc">
+                  <b style="color: black">Supervisory Development Programme</b>
+                  - ₹1,500 <br /><br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00pm to 2:00pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="date">19</div>
+            </li>
+            <li class="day">
+              <div class="date">20</div>
+              <div class="event">
+                <div class="event-desc">
+                  <b style="color: black"
+                    >ISO/IEC 17025-2017(NABL)Internal Auditor - 4 days</b
+                  >
+                  - ₹11,000 <br /><br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">9:30pm to 5:30pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="date">21</div>
+              <div class="event">
+                <div class="event-desc">
+                  <b style="color: black"
+                    >ISO/IEC 17025-2017(NABL)Internal Auditor - 4 days</b
+                  >
+                  - ₹11,000 <br /><br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">9:30pm to 5:30pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="date">22</div>
+              <div class="event">
+                <div class="event-desc">
+                  <b style="color: black"
+                    >ISO/IEC 17025-2017(NABL)Internal Auditor - 4 days</b
+                  >
+                  - ₹11,000 <br /><br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">9:30pm to 5:30pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="date">23</div>
+              <div class="event">
+                <div class="event-desc">
+                  <b style="color: black"
+                    >ISO/IEC 17025-2017(NABL)Internal Auditor - 4 days</b
+                  >
+                  - ₹11,000 <br /><br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">9:30pm to 5:30pm</div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Row #5 -->
+
+          <ul class="days">
+            <li class="day">
+              <div class="date">24</div>
+            </li>
+            <li class="day">
+              <div class="event" style="margin-top: 0">
+                <div class="date">25</div>
+                <div class="event-desc">
+                  <b style="color: black">LOTO</b> - ₹1000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00am to 12:00pm</div>
+              </div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black">Hazardous Waste Management</b> - ₹1000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">2:00pm to 3:30pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="date">26</div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black"
+                    >IATF16949 Awareness Internal Auditor</b
+                  >
+                  - ₹5000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">9:30pm to 5:30pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="date">27</div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black"
+                    >IATF16949 Awareness Internal Auditor</b
+                  >
+                  - ₹5000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">9:30pm to 5:30pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="date">28</div>
+            </li>
+            <li class="day">
+              <div class="date">29</div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black"
+                    >ISO-IEC 17025-2017 Awareness(NABL) - 1 day</b
+                  >
+                  - ₹2000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">9.30pm to 5:30pm</div>
+              </div>
+            </li>
+            <li class="day">
+              <div class="event" style="margin-top: 0">
+                <div class="date">30</div>
+                <div class="event-desc">
+                  <b style="color: black">Tooling Management</b> - ₹1000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">10:00am to 1:00pm</div>
+              </div>
+              <div class="event" style="margin-top: 0">
+                <div class="event-desc">
+                  <b style="color: black">OEE</b> - ₹1000
+                  <br />
+                  <button><a href="./registration.html">Connect</a></button>
+                </div>
+                <div class="event-time">2:00pm to 5:30pm</div>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Row #6 -->
+        </div>
+        <!-- /. calendar -->
+      </div>
+      <!-- /. wrap -->
+    </div>
+  </body>
 </html>
-
-
-<!-- 
-
-<div class="event">
-  <div class="event-desc">
-    HIRA - 800
-    <br><br>
-    <button> <a href="./registration.html">Connect</a> </button>
-  </div>
-  <div class="event-time">
-    2:00pm to 5:00pm
-  </div>
-</div>
-<div class="event">
-  <div class="event-desc">
-    PPE - 600
-    <br><br>
-    <button> <a href="./registration.html">Connect</a> </button>
-  </div>
-  <div class="event-time">
-    2:00pm to 5:00pm
-  </div>
-</div>
-<div class="event">
-  <div class="event-desc">
-    Tool Box Talk - 600
-    <br><br>
-    <button> <a href="./registration.html">Connect</a> </button>
-  </div>
-  <div class="event-time">
-    2:00pm to 5:00pm
-  </div>
-</div>
-<div class="event">
-  <div class="event-desc">
-    ISO9001 Awareness - 1,500
-    <br><br>
-    <button> <a href="./registration.html">Connect</a> </button>
-  </div>
-  <div class="event-time">
-    2:00pm to 5:00pm
-  </div>
-</div>
-<div class="event">
-  <div class="event-desc">
-    Process Turtle Diagram - 600
-    <br><br>
-    <button> <a href="./registration.html">Connect</a> </button>
-  </div>
-  <div class="event-time">
-    2:00pm to 5:00pm
-  </div>
-</div>
-<div class="event">
-  <div class="event-desc">
-    APQP (Advanced Product Quality Planning) - 1,500
-    <br><br>
-    <button> <a href="./registration.html">Connect</a> </button>
-  </div>
-  <div class="event-time">
-    2:00pm to 5:00pm
-  </div>
-</div>
-<div class="event">
-  <div class="event-desc">
-    Control Plan - 1,000
-    <br><br>
-    <button> <a href="./registration.html">Connect</a> </button>
-  </div>
-  <div class="event-time">
-    2:00pm to 5:00pm
-  </div>
-</div>
-<div class="event">
-  <div class="event-desc">
-    5S - 1,500
-    <br><br>
-    <button> <a href="./registration.html">Connect</a> </button>
-  </div>
-  <div class="event-time">
-    2:00pm to 5:00pm
-  </div>
-</div>
-<div class="event">
-  <div class="event-desc">
-    Plastic Molding Process - 800
-    <br><br>
-    <button> <a href="./registration.html">Connect</a> </button>
-  </div>
-  <div class="event-time">
-    2:00pm to 5:00pm
-  </div>
-</div>
-<div class="event">
-  <div class="event-desc">
-    SWOT Analysis - 1,500
-    <br><br>
-    <button> <a href="./registration.html">Connect</a> </button>
-  </div>
-  <div class="event-time">
-    2:00pm to 5:00pm
-  </div>
-</div> -->
