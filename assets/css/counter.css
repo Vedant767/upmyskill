@@ -11,7 +11,7 @@
   /* position: absolute; */
   width: 100vw;
   height: 40vh;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
   /* top: 50%; */
   /* left: 50%; */
   align-items: center;
@@ -23,7 +23,7 @@
   /* background-color: #121317; */
   background-color: #232427;
 }
-.container-count{
+.container-count {
   width: 28vmin;
   height: 28vmin;
   display: flex;
@@ -34,7 +34,7 @@
   font-size: 16px;
   border-radius: 0.5em;
   background-color: #212123;
-  border-bottom: 10px solid #FF5F00;
+  border-bottom: 10px solid #ff5f00;
 }
 span.num {
   color: #ffffff;
@@ -56,7 +56,6 @@ span.text {
   .wrapper-counter {
     margin-left: 670px;
   }
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -74,7 +73,7 @@ span.text {
     width: 90vw;
     flex-wrap: wrap;
     gap: 30px;
-    margin-left: 185px; 
+    margin-left: 185px;
   }
   .container-count {
     width: calc(50% - 40px);

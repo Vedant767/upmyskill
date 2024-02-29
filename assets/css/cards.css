@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
-.prices_tables{
+.prices_tables {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,7 +26,7 @@
 /* Changes in min-width and height */
 .prices_tables .container_prices .card {
   position: relative;
-  min-width: 390px;
+  min-width: 420px;
   height: 660px;
   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
     inset -5px -5px 15px rgba(255, 255, 255, 0.1),
@@ -126,30 +126,30 @@
   color: #000;
 }
 
-.content ul li{
-    color: rgba(255, 255, 255, 0.9);
-    text-align: left;
-    margin-left: 20px;
+.content ul li {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: left;
+  margin-left: 20px;
 }
 
 #customers {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    color: rgba(255, 255, 255, 0.9);
-  }
-  
-  #customers td, #customers th {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.9);
+}
 
-  .content > ul > li{
-    /* color: rgb(252, 110, 81); */
-    color: white
-  }
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
 
-  #private_box{
-    margin-bottom: 81px;
-  }
-  
+.content > ul > li {
+  /* color: rgb(252, 110, 81); */
+  color: white;
+}
+
+#private_box {
+  margin-bottom: 81px;
+}
